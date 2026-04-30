@@ -11,10 +11,9 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <Link to="/" className="flex items-center gap-3 mb-6">
               <img src="/images/logo.png" alt="WebWare Ltd" className="h-9 w-auto object-contain" />
-              <span className="text-xl font-display font-bold">
-                <span className="text-white">Web</span>
-                <span className="gradient-text">Ware</span>
-              </span>
+              {/* <span className="text-xl font-display font-bold">
+
+              </span> */}
             </Link>
             <p className="text-gray-500 text-sm leading-relaxed">
               Webware Ltd is a leading software development provider in the UK with additional global locations in the US, Canada, Europe, and Australia.
