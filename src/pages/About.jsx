@@ -26,10 +26,10 @@ export default function About() {
               <div className="glass-card rounded-2xl p-8 relative overflow-hidden">
                 <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-cyan-500 to-blue-500"></div>
                 <span className="section-badge mb-4 inline-block">Under the Surface</span>
-                <h3 className="text-xl font-display font-bold text-white mb-4">20+ Years of <span className="gradient-text">Excellence</span></h3>
+                <h3 className="text-xl font-display font-bold text-white mb-4">5+ Years of <span className="gradient-text">Excellence</span></h3>
                 <p className="text-gray-500 leading-relaxed mb-6">Starting around 2001, we have given premium programming advancement administrations to over 1500+ organizations all over the planet.</p>
                 <div className="grid grid-cols-3 gap-4 pt-6 border-t border-white/5">
-                  {[{ num: '1500+', label: 'Organizations' }, { num: '20+', label: 'Years' }, { num: '150+', label: 'Projects' }].map((s) => (
+                  {[{ num: '1500+', label: 'Organizations' }, { num: '5+', label: 'Years' }, { num: '150+', label: 'Projects' }].map((s) => (
                     <div key={s.label} className="text-center">
                       <div className="text-2xl font-display font-bold gradient-text">{s.num}</div>
                       <div className="text-gray-600 text-xs mt-1">{s.label}</div>

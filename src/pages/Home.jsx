@@ -48,7 +48,7 @@ export default function Home() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-24 animate-slide-up" style={{animationDelay: '0.6s'}}>
             {[
               { number: '1500+', label: 'Clients Worldwide' },
-              { number: '20+', label: 'Years Experience' },
+              { number: '5+', label: 'Years Experience' },
               { number: '150+', label: 'Projects Completed' },
               { number: '24/7', label: 'Support Available' },
             ].map((stat) => (
